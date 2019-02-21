@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Coiny|Orbitron');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+
+body
+{
+	background: url("5.gif");
+	background-size: 100%;
+	background-position: 0, -100;
+
+
+}
+
+
+.main
+{
+	width: 300px;
+	height: 180px;
+	margin: 100px auto;
+	text-align: justify-all;
+	background: #ccc;
+	padding: 15px;
+	border-radius: 50%;
+}
+
+.badge
+{
+	background: #e66357;
+	color:white;
+	position: relative;
+	top: -20px;
+	left: 100px;
+	border-radius: 50%;
+	padding: 7px 10px;
+	font-family: Coiny;
+	font-weight: bold;
+	font-size: 20px;
+	width: 80px;
+	
+}
+
+
+.clock
+{
+	background: #ebebeb;
+	font-size: 35;
+	padding: 35px 5px;
+	text-align: center;
+	height: 60%;
+	border-bottom: transparent;
+	border-radius: 90%;
+
+	font-family: Orbitron;
+}
+
+
+.credit
+{
+	position: absolute;
+	top: 300;
+	right: 50;
+	font-family: Coiny;
+}
+
+.main:hover
+{
+	background: #261b37;
+	transition: background 1s ease-in;
+}
+
+.main:active
+{
+	border-radius: 0%;
+	transition: border-radius 0.7s ease-in;
+}
+
+.clock:hover
+{
+	background: #ccc;
+	cursor: pointer;
+	border-radius: 0%;
+	border-color: red;
+	transition: background, border-radius 0.3s ease-in;
+
+}
+
+.badge:hover
+{
+	border-radius: 0%;
+	transition: border-radius 1s ease-in;
+}
+
+.credit:hover
+{
+	font-size: 25px;
+	transition: font-size 1s ease-in;
+
+}
